@@ -1,12 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simple Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome!</h1>
-    <p>Hello World!</p>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <ul class="nav-list">
+                    <li><a href="#home">ГЛАВНАЯ</a></li>
+                    <li><a href="#about">ОБ АВТОРЕ</a></li>
+                    <li><a href="#projects">РАБОТЫ</a></li>
+                    <li><a href="#process">ПРОЦЕСС</a></li>
+                    <li><a href="#contacts">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Дизайн и верстка</h1>
+            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            <button class="btn">НАПИСАТЬ МНЕ</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus sed elit maximus tempor quis quis est. Sed at massa diam. Vivamus accumsan ex vel nibh mollis pellentesque.</p>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stat-item">
+            <img src="icon-placeholder.png" alt="Projects icon">
+            <p>40+ проектов</p>
+        </div>
+        <div class="stat-item">
+            <img src="icon-placeholder.png" alt="Projects icon">
+            <p>40+ проектов</p>
+        </div>
+        <div class="stat-item">
+            <img src="icon-placeholder.png" alt="Projects icon">
+            <p>40+ проектов</p>
+        </div>
+        <div class="stat-item">
+            <img src="icon-placeholder.png" alt="Projects icon">
+            <p>40+ проектов</p>
+        </div>
+        <div class="stat-item">
+            <img src="icon-placeholder.png" alt="Projects icon">
+            <p>40+ проектов</p>
+        </div>
+        <div class="stat-item">
+            <img src="icon-placeholder.png" alt="Projects icon">
+            <p>40+ проектов</p>
+        </div>
+    </section>
+
+    <section id="process" class="work">
+        <div class="container">
+            <h2>Как я работаю</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus sed elit maximus tempor quis quis est.</p>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?si=v9jZ8M9-LZxnedar"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Войтенко В.С. © 2025 Все права защищены.</p>
+    </footer>
 </body>
 </html>
