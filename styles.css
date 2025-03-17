@@ -168,28 +168,7 @@ body {
 footer {
     background-color: var(--primary-color);
     color: var(--white);
-    text-align: center;
-    padding: 40px 20px;
+    text-align: left;
+    padding: 40px 380px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .nav-list {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .hero h1 {
-        font-size: 36px;
-    }
-
-    .stats {
-        gap: 20px;
-    }
-
-    .stat-item {
-        width: calc(50% - 20px);
-        justify-content: center;
-    }
-}
